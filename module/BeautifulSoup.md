@@ -4,12 +4,14 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月 16 23:20:53 2017 (+0800)
-;; Last-Updated: 五 6月 16 23:26:34 2017 (+0800)
+;; Last-Updated: 六 6月 17 12:05:26 2017 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 1
+;;     Update #: 2
 ;; URL: http://wuhongyi.cn -->
 
 # BeautifulSoup
+
+[Beautiful Soup 4.2.0 文档](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.zh.html)
 
 Beautiful Soup是python的一个库，最主要的功能是从网页抓取数据。官方解释如下：
 
