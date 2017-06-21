@@ -155,7 +155,98 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.4" data-path="Time.html">
+        <li class="chapter " data-level="1.2.4" data-path="Tuples.html">
+            
+                <a href="Tuples.html">
+            
+                    
+                    Tuples
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="Numbers.html">
+            
+                <a href="Numbers.html">
+            
+                    
+                    Numbers+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="Strings.html">
+            
+                <a href="Strings.html">
+            
+                    
+                    Strings+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="ifstatement.html">
+            
+                <a href="ifstatement.html">
+            
+                    
+                    if 条件语句+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="loops.html">
+            
+                <a href="loops.html">
+            
+                    
+                    循环语句+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="Functions.html">
+            
+                <a href="Functions.html">
+            
+                    
+                    函数+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="Operators.html">
+            
+                <a href="Operators.html">
+            
+                    
+                    运算符+
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="Time.html">
             
                 <a href="Time.html">
             
@@ -168,12 +259,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.5" data-path="Module.html">
+        <li class="chapter " data-level="1.2.12" data-path="Module.html">
             
                 <a href="Module.html">
             
                     
-                    模块
+                    模块+
             
                 </a>
             
@@ -181,7 +272,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2.6" data-path="YiChangChuLi.html">
+        <li class="chapter " data-level="1.2.13" data-path="YiChangChuLi.html">
             
                 <a href="YiChangChuLi.html">
             
@@ -347,13 +438,92 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 二 6月 20 22:31:19 2017 (+0800)
-;; Last-Updated: 二 6月 20 22:32:11 2017 (+0800)
+;; Last-Updated: 三 6月 21 22:18:57 2017 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 1
+;;     Update #: 3
 ;; URL: http://wuhongyi.cn -->
 
 
-<h1 id="dictionary">Dictionary</h1><hr><blockquote><p><a href="http://www.runoob.com/python/python-dictionary.html" target="_blank">http://www.runoob.com/python/python-dictionary.html</a></p></blockquote><!-- Dictionary.md ends here -->
+<h1 id="dictionary">Dictionary</h1><p>&#x5B57;&#x5178;&#x662F;&#x53E6;&#x4E00;&#x79CD;&#x53EF;&#x53D8;&#x5BB9;&#x5668;&#x6A21;&#x578B;&#xFF0C;&#x4E14;&#x53EF;&#x5B58;&#x50A8;&#x4EFB;&#x610F;&#x7C7B;&#x578B;&#x5BF9;&#x8C61;&#x3002;</p><p>&#x5B57;&#x5178;&#x7684;&#x6BCF;&#x4E2A;&#x952E;&#x503C;(key=&gt;value)&#x5BF9;&#x7528;&#x5192;&#x53F7;(:)&#x5206;&#x5272;&#xFF0C;&#x6BCF;&#x4E2A;&#x5BF9;&#x4E4B;&#x95F4;&#x7528;&#x9017;&#x53F7;(,)&#x5206;&#x5272;&#xFF0C;&#x6574;&#x4E2A;&#x5B57;&#x5178;&#x5305;&#x62EC;&#x5728;&#x82B1;&#x62EC;&#x53F7;({})&#x4E2D; ,&#x683C;&#x5F0F;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p><pre><code class="lang-python">d = {key1 : value1, key2 : value2 }</code></pre>
+<p>&#x952E;&#x5FC5;&#x987B;&#x662F;&#x552F;&#x4E00;&#x7684;&#xFF0C;&#x4F46;&#x503C;&#x5219;&#x4E0D;&#x5FC5;&#x3002;</p><p>&#x503C;&#x53EF;&#x4EE5;&#x53D6;&#x4EFB;&#x4F55;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x4F46;&#x952E;&#x5FC5;&#x987B;&#x662F;&#x4E0D;&#x53EF;&#x53D8;&#x7684;&#xFF0C;&#x5982;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x6570;&#x5B57;&#x6216;&#x5143;&#x7EC4;&#x3002;</p><p>&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x5B57;&#x5178;&#x5B9E;&#x4F8B;&#xFF1A;</p><pre><code class="lang-python">dict = {<span class="hljs-string">&apos;Alice&apos;</span>: <span class="hljs-string">&apos;2341&apos;</span>, <span class="hljs-string">&apos;Beth&apos;</span>: <span class="hljs-string">&apos;9102&apos;</span>, <span class="hljs-string">&apos;Cecil&apos;</span>: <span class="hljs-string">&apos;3258&apos;</span>}</code></pre>
+<p>&#x4E5F;&#x53EF;&#x5982;&#x6B64;&#x521B;&#x5EFA;&#x5B57;&#x5178;&#xFF1A;</p><pre><code class="lang-python">dict1 = { <span class="hljs-string">&apos;abc&apos;</span>: <span class="hljs-number">456</span> };
+dict2 = { <span class="hljs-string">&apos;abc&apos;</span>: <span class="hljs-number">123</span>, <span class="hljs-number">98.6</span>: <span class="hljs-number">37</span> };</code></pre>
+<h2 id="&#x8BBF;&#x95EE;&#x5B57;&#x5178;&#x91CC;&#x7684;&#x503C;">&#x8BBF;&#x95EE;&#x5B57;&#x5178;&#x91CC;&#x7684;&#x503C;</h2><p>&#x628A;&#x76F8;&#x5E94;&#x7684;&#x952E;&#x653E;&#x5165;&#x719F;&#x6089;&#x7684;&#x65B9;&#x62EC;&#x5F27;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;:</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+
+dict = {<span class="hljs-string">&apos;Name&apos;</span>: <span class="hljs-string">&apos;Zara&apos;</span>, <span class="hljs-string">&apos;Age&apos;</span>: <span class="hljs-number">7</span>, <span class="hljs-string">&apos;Class&apos;</span>: <span class="hljs-string">&apos;First&apos;</span>};
+
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Name&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Name&apos;</span>];
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Age&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Age&apos;</span>];</code></pre>
+<h2 id="&#x4FEE;&#x6539;&#x5B57;&#x5178;">&#x4FEE;&#x6539;&#x5B57;&#x5178;</h2><p>&#x5411;&#x5B57;&#x5178;&#x6DFB;&#x52A0;&#x65B0;&#x5185;&#x5BB9;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x589E;&#x52A0;&#x65B0;&#x7684;&#x952E;/&#x503C;&#x5BF9;&#xFF0C;&#x4FEE;&#x6539;&#x6216;&#x5220;&#x9664;&#x5DF2;&#x6709;&#x952E;/&#x503C;&#x5BF9;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;:</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+
+dict = {<span class="hljs-string">&apos;Name&apos;</span>: <span class="hljs-string">&apos;Zara&apos;</span>, <span class="hljs-string">&apos;Age&apos;</span>: <span class="hljs-number">7</span>, <span class="hljs-string">&apos;Class&apos;</span>: <span class="hljs-string">&apos;First&apos;</span>};
+
+dict[<span class="hljs-string">&apos;Age&apos;</span>] = <span class="hljs-number">8</span>; <span class="hljs-comment"># update existing entry</span>
+dict[<span class="hljs-string">&apos;School&apos;</span>] = <span class="hljs-string">&quot;DPS School&quot;</span>; <span class="hljs-comment"># Add new entry</span>
+
+
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Age&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Age&apos;</span>];
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;School&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;School&apos;</span>];</code></pre>
+<h2 id="&#x5220;&#x9664;&#x5B57;&#x5178;&#x5143;&#x7D20;">&#x5220;&#x9664;&#x5B57;&#x5178;&#x5143;&#x7D20;</h2><p>&#x80FD;&#x5220;&#x5355;&#x4E00;&#x7684;&#x5143;&#x7D20;&#x4E5F;&#x80FD;&#x6E05;&#x7A7A;&#x5B57;&#x5178;&#xFF0C;&#x6E05;&#x7A7A;&#x53EA;&#x9700;&#x4E00;&#x9879;&#x64CD;&#x4F5C;&#x3002;</p><p>&#x663E;&#x793A;&#x5220;&#x9664;&#x4E00;&#x4E2A;&#x5B57;&#x5178;&#x7528;del&#x547D;&#x4EE4;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;&#xFF1A;</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+<span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
+
+dict = {<span class="hljs-string">&apos;Name&apos;</span>: <span class="hljs-string">&apos;Zara&apos;</span>, <span class="hljs-string">&apos;Age&apos;</span>: <span class="hljs-number">7</span>, <span class="hljs-string">&apos;Class&apos;</span>: <span class="hljs-string">&apos;First&apos;</span>};
+
+<span class="hljs-keyword">del</span> dict[<span class="hljs-string">&apos;Name&apos;</span>]; <span class="hljs-comment"># &#x5220;&#x9664;&#x952E;&#x662F;&apos;Name&apos;&#x7684;&#x6761;&#x76EE;</span>
+dict.clear();     <span class="hljs-comment"># &#x6E05;&#x7A7A;&#x8BCD;&#x5178;&#x6240;&#x6709;&#x6761;&#x76EE;</span>
+<span class="hljs-keyword">del</span> dict ;        <span class="hljs-comment"># &#x5220;&#x9664;&#x8BCD;&#x5178;</span>
+
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Age&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Age&apos;</span>];
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;School&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;School&apos;</span>];</code></pre>
+<p>&#x4F46;&#x8FD9;&#x4F1A;&#x5F15;&#x53D1;&#x4E00;&#x4E2A;&#x5F02;&#x5E38;&#xFF0C;&#x56E0;&#x4E3A;&#x7528;del&#x540E;&#x5B57;&#x5178;&#x4E0D;&#x518D;&#x5B58;&#x5728;</p><h2 id="&#x5B57;&#x5178;&#x952E;&#x7684;&#x7279;&#x6027;">&#x5B57;&#x5178;&#x952E;&#x7684;&#x7279;&#x6027;</h2><p>&#x5B57;&#x5178;&#x503C;&#x53EF;&#x4EE5;&#x6CA1;&#x6709;&#x9650;&#x5236;&#x5730;&#x53D6;&#x4EFB;&#x4F55;python&#x5BF9;&#x8C61;&#xFF0C;&#x65E2;&#x53EF;&#x4EE5;&#x662F;&#x6807;&#x51C6;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x7528;&#x6237;&#x5B9A;&#x4E49;&#x7684;&#xFF0C;&#x4F46;&#x952E;&#x4E0D;&#x884C;&#x3002;</p><p>&#x4E24;&#x4E2A;&#x91CD;&#x8981;&#x7684;&#x70B9;&#x9700;&#x8981;&#x8BB0;&#x4F4F;&#xFF1A;</p><ul><li><p>&#x4E0D;&#x5141;&#x8BB8;&#x540C;&#x4E00;&#x4E2A;&#x952E;&#x51FA;&#x73B0;&#x4E24;&#x6B21;&#x3002;&#x521B;&#x5EFA;&#x65F6;&#x5982;&#x679C;&#x540C;&#x4E00;&#x4E2A;&#x952E;&#x88AB;&#x8D4B;&#x503C;&#x4E24;&#x6B21;&#xFF0C;&#x540E;&#x4E00;&#x4E2A;&#x503C;&#x4F1A;&#x88AB;&#x8BB0;&#x4F4F;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;&#xFF1A;</p><pre><code class="lang-python">  <span class="hljs-comment">#!/usr/bin/python</span>
+  dict = {<span class="hljs-string">&apos;Name&apos;</span>: <span class="hljs-string">&apos;Zara&apos;</span>, <span class="hljs-string">&apos;Age&apos;</span>: <span class="hljs-number">7</span>, <span class="hljs-string">&apos;Name&apos;</span>: <span class="hljs-string">&apos;Manni&apos;</span>};
+  <span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Name&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Name&apos;</span>];</code></pre>
+<ul><li>&#x952E;&#x5FC5;&#x987B;&#x4E0D;&#x53EF;&#x53D8;&#xFF0C;&#x6240;&#x4EE5;&#x53EF;&#x4EE5;&#x7528;&#x6570;&#x5B57;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x5143;&#x7EC4;&#x5145;&#x5F53;&#xFF0C;&#x6240;&#x4EE5;&#x7528;&#x5217;&#x8868;&#x5C31;&#x4E0D;&#x884C;&#xFF0C;&#x5982;&#x4E0B;&#x5B9E;&#x4F8B;&#xFF1A;
+<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+dict = {[<span class="hljs-string">&apos;Name&apos;</span>]: <span class="hljs-string">&apos;Zara&apos;</span>, <span class="hljs-string">&apos;Age&apos;</span>: <span class="hljs-number">7</span>};
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;dict[&apos;Name&apos;]: &quot;</span>, dict[<span class="hljs-string">&apos;Name&apos;</span>];</code></pre>
+</li></ul>
+</li></ul>
+<hr><h2 id="&#x5B57;&#x5178;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#x65B9;&#x6CD5;">&#x5B57;&#x5178;&#x5185;&#x7F6E;&#x51FD;&#x6570;&amp;&#x65B9;&#x6CD5;</h2><p>Python&#x5B57;&#x5178;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF1A;</p><ul><li>cmp(dict1, dict2)   &#x6BD4;&#x8F83;&#x4E24;&#x4E2A;&#x5B57;&#x5178;&#x5143;&#x7D20;&#x3002;
+</li>
+<li>len(dict)   &#x8BA1;&#x7B97;&#x5B57;&#x5178;&#x5143;&#x7D20;&#x4E2A;&#x6570;&#xFF0C;&#x5373;&#x952E;&#x7684;&#x603B;&#x6570;&#x3002;
+</li>
+<li>str(dict)   &#x8F93;&#x51FA;&#x5B57;&#x5178;&#x53EF;&#x6253;&#x5370;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#x3002;
+</li>
+<li>type(variable)  &#x8FD4;&#x56DE;&#x8F93;&#x5165;&#x7684;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF0C;&#x5982;&#x679C;&#x53D8;&#x91CF;&#x662F;&#x5B57;&#x5178;&#x5C31;&#x8FD4;&#x56DE;&#x5B57;&#x5178;&#x7C7B;&#x578B;&#x3002;
+</li></ul>
+<p>Python&#x5B57;&#x5178;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x65B9;&#x6CD5;&#xFF1A;</p><ul><li>dict.clear()   &#x5220;&#x9664;&#x5B57;&#x5178;&#x5185;&#x6240;&#x6709;&#x5143;&#x7D20;
+</li>
+<li>dict.copy()   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5B57;&#x5178;&#x7684;&#x6D45;&#x590D;&#x5236;
+</li>
+<li>dict.fromkeys(seq[, val]))   &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x5B57;&#x5178;&#xFF0C;&#x4EE5;&#x5E8F;&#x5217; seq &#x4E2D;&#x5143;&#x7D20;&#x505A;&#x5B57;&#x5178;&#x7684;&#x952E;&#xFF0C;val &#x4E3A;&#x5B57;&#x5178;&#x6240;&#x6709;&#x952E;&#x5BF9;&#x5E94;&#x7684;&#x521D;&#x59CB;&#x503C;
+</li>
+<li>dict.get(key, default=None)   &#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x952E;&#x7684;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x503C;&#x4E0D;&#x5728;&#x5B57;&#x5178;&#x4E2D;&#x8FD4;&#x56DE;default&#x503C;
+</li>
+<li>dict.has_key(key)   &#x5982;&#x679C;&#x952E;&#x5728;&#x5B57;&#x5178;dict&#x91CC;&#x8FD4;&#x56DE;true&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;false
+</li>
+<li>dict.items()   &#x4EE5;&#x5217;&#x8868;&#x8FD4;&#x56DE;&#x53EF;&#x904D;&#x5386;&#x7684;(&#x952E;, &#x503C;) &#x5143;&#x7EC4;&#x6570;&#x7EC4;
+</li>
+<li>dict.keys()   &#x4EE5;&#x5217;&#x8868;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5B57;&#x5178;&#x6240;&#x6709;&#x7684;&#x952E;
+</li>
+<li>dict.setdefault(key, default=None)   &#x548C;get()&#x7C7B;&#x4F3C;, &#x4F46;&#x5982;&#x679C;&#x952E;&#x4E0D;&#x5B58;&#x5728;&#x4E8E;&#x5B57;&#x5178;&#x4E2D;&#xFF0C;&#x5C06;&#x4F1A;&#x6DFB;&#x52A0;&#x952E;&#x5E76;&#x5C06;&#x503C;&#x8BBE;&#x4E3A;default
+</li>
+<li>dict.update(dict2)   &#x628A;&#x5B57;&#x5178;dict2&#x7684;&#x952E;/&#x503C;&#x5BF9;&#x66F4;&#x65B0;&#x5230;dict&#x91CC;
+</li>
+<li>dict.values()   &#x4EE5;&#x5217;&#x8868;&#x8FD4;&#x56DE;&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x503C;
+</li>
+<li>pop(key[,default])   &#x5220;&#x9664;&#x5B57;&#x5178;&#x7ED9;&#x5B9A;&#x952E; key &#x6240;&#x5BF9;&#x5E94;&#x7684;&#x503C;&#xFF0C;&#x8FD4;&#x56DE;&#x503C;&#x4E3A;&#x88AB;&#x5220;&#x9664;&#x7684;&#x503C;&#x3002;key&#x503C;&#x5FC5;&#x987B;&#x7ED9;&#x51FA;&#x3002; &#x5426;&#x5219;&#xFF0C;&#x8FD4;&#x56DE;default&#x503C;&#x3002;
+</li>
+<li>popitem()   &#x968F;&#x673A;&#x8FD4;&#x56DE;&#x5E76;&#x5220;&#x9664;&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x4E00;&#x5BF9;&#x952E;&#x548C;&#x503C;&#x3002;
+</li></ul>
+<hr><p>&#x5B57;&#x5178;&#x503C;&#x53EF;&#x4EE5;&#x662F;&#x4EFB;&#x610F;&#x6570;&#x503C;&#x7C7B;&#x578B;&#xFF1A;</p><pre><code class="lang-python"><span class="hljs-meta">&gt;&gt;&gt; </span>dict1 = {<span class="hljs-string">&quot;a&quot;</span>:[<span class="hljs-number">1</span>,<span class="hljs-number">2</span>]}      <span class="hljs-comment"># &#x503C;&#x4E3A;&#x5217;&#x8868;</span>
+<span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">print</span> dict1[<span class="hljs-string">&quot;a&quot;</span>][<span class="hljs-number">1</span>]
+<span class="hljs-number">2</span>
+<span class="hljs-meta">&gt;&gt;&gt; </span>dict2 = {<span class="hljs-string">&quot;a&quot;</span>:{<span class="hljs-string">&quot;c&quot;</span>:<span class="hljs-string">&quot;d&quot;</span>}}   <span class="hljs-comment"># &#x503C;&#x4E3A;&#x5B57;&#x5178;</span>
+<span class="hljs-meta">&gt;&gt;&gt; </span><span class="hljs-keyword">print</span> dict2[<span class="hljs-string">&quot;a&quot;</span>][<span class="hljs-string">&quot;c&quot;</span>]
+d
+<span class="hljs-meta">&gt;&gt;&gt; </span></code></pre>
+<hr><blockquote><p><a href="http://www.runoob.com/python/python-dictionary.html" target="_blank">http://www.runoob.com/python/python-dictionary.html</a></p></blockquote><!-- Dictionary.md ends here -->
 
 
 
@@ -399,7 +569,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Dictionary","level":"1.2.1","depth":2,"next":{"title":"File","level":"1.2.2","depth":2,"path":"base/File.md","ref":"base/File.md","articles":[]},"previous":{"title":"基础","level":"1.2","depth":1,"path":"base/README.md","ref":"base/README.md","articles":[{"title":"Dictionary","level":"1.2.1","depth":2,"path":"base/Dictionary.md","ref":"base/Dictionary.md","articles":[]},{"title":"File","level":"1.2.2","depth":2,"path":"base/File.md","ref":"base/File.md","articles":[]},{"title":"List","level":"1.2.3","depth":2,"path":"base/List.md","ref":"base/List.md","articles":[]},{"title":"时间和日期","level":"1.2.4","depth":2,"path":"base/Time.md","ref":"base/Time.md","articles":[]},{"title":"模块","level":"1.2.5","depth":2,"path":"base/Module.md","ref":"base/Module.md","articles":[]},{"title":"异常处理","level":"1.2.6","depth":2,"path":"base/YiChangChuLi.md","ref":"base/YiChangChuLi.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/Dictionary.md","mtime":"2017-06-20T14:32:11.388Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-06-20T14:34:51.608Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Dictionary","level":"1.2.1","depth":2,"next":{"title":"File","level":"1.2.2","depth":2,"path":"base/File.md","ref":"base/File.md","articles":[]},"previous":{"title":"基础","level":"1.2","depth":1,"path":"base/README.md","ref":"base/README.md","articles":[{"title":"Dictionary","level":"1.2.1","depth":2,"path":"base/Dictionary.md","ref":"base/Dictionary.md","articles":[]},{"title":"File","level":"1.2.2","depth":2,"path":"base/File.md","ref":"base/File.md","articles":[]},{"title":"List","level":"1.2.3","depth":2,"path":"base/List.md","ref":"base/List.md","articles":[]},{"title":"Tuples","level":"1.2.4","depth":2,"path":"base/Tuples.md","ref":"base/Tuples.md","articles":[]},{"title":"Numbers+","level":"1.2.5","depth":2,"path":"base/Numbers.md","ref":"base/Numbers.md","articles":[]},{"title":"Strings+","level":"1.2.6","depth":2,"path":"base/Strings.md","ref":"base/Strings.md","articles":[]},{"title":"if 条件语句+","level":"1.2.7","depth":2,"path":"base/ifstatement.md","ref":"base/ifstatement.md","articles":[]},{"title":"循环语句+","level":"1.2.8","depth":2,"path":"base/loops.md","ref":"base/loops.md","articles":[]},{"title":"函数+","level":"1.2.9","depth":2,"path":"base/Functions.md","ref":"base/Functions.md","articles":[]},{"title":"运算符+","level":"1.2.10","depth":2,"path":"base/Operators.md","ref":"base/Operators.md","articles":[]},{"title":"时间和日期","level":"1.2.11","depth":2,"path":"base/Time.md","ref":"base/Time.md","articles":[]},{"title":"模块+","level":"1.2.12","depth":2,"path":"base/Module.md","ref":"base/Module.md","articles":[]},{"title":"异常处理","level":"1.2.13","depth":2,"path":"base/YiChangChuLi.md","ref":"base/YiChangChuLi.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base/Dictionary.md","mtime":"2017-06-21T14:18:57.647Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2017-06-21T15:07:28.910Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
