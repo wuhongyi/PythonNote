@@ -18,6 +18,7 @@
 * [模块](module/README.md)
   - [BeautifulSoup](module/BeautifulSoup.md)
   - [cookielib](module/cookielib.md)
+  - [matplotlib](module/matplotlib.md)
   - [numpy](module/numpy.md)
   - [pandas](module/pandas.md)
   - [requests](module/requests.md)

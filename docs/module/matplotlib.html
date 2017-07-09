@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>urllib2 · GitBook</title>
+        <title>matplotlib · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.2">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="numpy.html" />
     
-    <link rel="prev" href="urllib.html" />
+    
+    <link rel="prev" href="cookielib.html" />
     
 
     </head>
@@ -328,7 +330,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3.3" data-path="matplotlib.html">
+        <li class="chapter active" data-level="1.3.3" data-path="matplotlib.html">
             
                 <a href="matplotlib.html">
             
@@ -393,7 +395,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3.8" data-path="urllib2.html">
+        <li class="chapter " data-level="1.3.8" data-path="urllib2.html">
             
                 <a href="urllib2.html">
             
@@ -441,7 +443,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >urllib2</a>
+        <a href=".." >matplotlib</a>
     </h1>
 </div>
 
@@ -456,50 +458,22 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <!-- urllib2.md --- 
+                                <!-- matplotlib.md --- 
 ;; 
 ;; Description: 
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
-;; Created: 四 6月 15 23:02:50 2017 (+0800)
-;; Last-Updated: 二 6月 20 21:42:45 2017 (+0800)
+;; Created: 日 7月  9 17:02:32 2017 (+0800)
+;; Last-Updated: 日 7月  9 17:08:29 2017 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 2
+;;     Update #: 1
 ;; URL: http://wuhongyi.cn -->
-<h1 id="urllib2">urllib2</h1>
-<p>urllib2&#x6A21;&#x5757;&#x7684; OpenerDirector &#x64CD;&#x4F5C;&#x7C7B;&#x3002;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7BA1;&#x7406;&#x5F88;&#x591A;&#x5904;&#x7406;&#x7C7B;&#xFF08;Handler&#xFF09;&#x7684;&#x7C7B;&#x3002;&#x800C;&#x6240;&#x6709;&#x8FD9;&#x4E9B; Handler &#x7C7B;&#x90FD;&#x5BF9;&#x5E94;&#x5904;&#x7406;&#x76F8;&#x5E94;&#x7684;&#x534F;&#x8BAE;&#xFF0C;&#x6216;&#x8005;&#x7279;&#x6B8A;&#x529F;&#x80FD;&#x3002;&#x5206;&#x522B;&#x6709;&#x4E0B;&#x9762;&#x7684;&#x5904;&#x7406;&#x7C7B;&#xFF1A;</p>
-<ul>
-<li>BaseHandler</li>
-<li>HTTPErrorProcessor</li>
-<li>HTTPDefaultErrorHandler</li>
-<li>HTTPRedirectHandler</li>
-<li>ProxyHandler</li>
-<li>AbstractBasicAuthHandler</li>
-<li>HTTPBasicAuthHandler</li>
-<li>ProxyBasicAuthHandler</li>
-<li>AbstractDigestAuthHandler</li>
-<li>ProxyDigestAuthHandler</li>
-<li>AbstractHTTPHandler</li>
-<li>HTTPHandler</li>
-<li>HTTPCookieProcessor</li>
-<li>UnknownHandler</li>
-<li>FileHandler</li>
-<li>FTPHandler</li>
-<li>CacheFTPHandler</li>
-</ul>
-<h2 id="debug-log">Debug Log</h2>
-<p>&#x4F7F;&#x7528; urllib2 &#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E0B;&#x9762;&#x7684;&#x65B9;&#x6CD5;&#x628A; debug Log &#x6253;&#x5F00;&#xFF0C;&#x8FD9;&#x6837;&#x6536;&#x53D1;&#x5305;&#x7684;&#x5185;&#x5BB9;&#x5C31;&#x4F1A;&#x5728;&#x5C4F;&#x5E55;&#x4E0A;&#x6253;&#x5370;&#x51FA;&#x6765;&#xFF0C;&#x65B9;&#x4FBF;&#x8C03;&#x8BD5;&#xFF0C;&#x6709;&#x65F6;&#x53EF;&#x4EE5;&#x7701;&#x53BB;&#x6293;&#x5305;&#x7684;&#x5DE5;&#x4F5C;</p>
-<pre><code class="lang-python"><span class="hljs-keyword">import</span> urllib2
-httpHandler = urllib2.HTTPHandler(debuglevel=<span class="hljs-number">1</span>)
-httpsHandler = urllib2.HTTPSHandler(debuglevel=<span class="hljs-number">1</span>)
-opener = urllib2.build_opener(httpHandler, httpsHandler)
-urllib2.install_opener(opener)
-response = urllib2.urlopen(<span class="hljs-string">&apos;http://www.google.com&apos;</span>)
-</code></pre>
+<h1 id="matplotlib">matplotlib</h1>
 <blockquote>
-<p><a href="http://www.cnblogs.com/sysu-blackbear/p/3629770.html" target="_blank">http://www.cnblogs.com/sysu-blackbear/p/3629770.html</a></p>
+<p><a href="http://matplotlib.org/" target="_blank">http://matplotlib.org/</a>
+<a href="http://old.sebug.net/paper/books/scipydoc/matplotlib_intro.html" target="_blank">http://old.sebug.net/paper/books/scipydoc/matplotlib_intro.html</a></p>
 </blockquote>
-<!-- urllib2.md ends here -->
+<!-- matplotlib.md ends here -->
 
                                 
                                 </section>
@@ -527,10 +501,14 @@ response = urllib2.urlopen(<span class="hljs-string">&apos;http://www.google.com
 
             
                 
-                <a href="urllib.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: urllib">
+                <a href="cookielib.html" class="navigation navigation-prev " aria-label="Previous page: cookielib">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="numpy.html" class="navigation navigation-next " aria-label="Next page: numpy">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -539,7 +517,7 @@ response = urllib2.urlopen(<span class="hljs-string">&apos;http://www.google.com
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"urllib2","level":"1.3.8","depth":2,"previous":{"title":"urllib","level":"1.3.7","depth":2,"path":"module/urllib.md","ref":"module/urllib.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"module/urllib2.md","mtime":"2017-06-20T13:42:45.909Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-09T09:13:06.127Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"matplotlib","level":"1.3.3","depth":2,"next":{"title":"numpy","level":"1.3.4","depth":2,"path":"module/numpy.md","ref":"module/numpy.md","articles":[]},"previous":{"title":"cookielib","level":"1.3.2","depth":2,"path":"module/cookielib.md","ref":"module/cookielib.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"module/matplotlib.md","mtime":"2017-07-09T09:08:29.586Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-09T09:13:06.127Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
