@@ -1,4 +1,15 @@
-# 介绍
+<!-- README.md --- 
+;; 
+;; Description: 
+;; Author: Hongyi Wu(吴鸿毅)
+;; Email: wuhongyi@qq.com 
+;; Created: 五 4月 20 22:48:26 2018 (+0800)
+;; Last-Updated: 五 4月 20 23:06:24 2018 (+0800)
+;;           By: Hongyi Wu(吴鸿毅)
+;;     Update #: 2
+;; URL: http://wuhongyi.cn -->
+
+# 简介
 
 本文为吴鸿毅（wuhongyi@qq.com） Python使用的总结。
 
@@ -8,9 +19,125 @@ http://wuhongyi.cn/PythonNote/
 [Python Cookbook 3rd Edition Documentation](http://python3-cookbook.readthedocs.io/zh_CN/latest/)
 
 
-http://www.cnblogs.com/Albert-Lee/p/6226699.html
+[Python爬虫小白入门（一）](http://www.cnblogs.com/Albert-Lee/p/6226699.html)
 
-当前测试版本2.7.5,已经安装了以下模块
+
+> https://www.python.org/
+
+
+本文主要面向python3(毕竟2.7会慢慢退出历史舞台)
+
+```bash
+#查询安装模块
+pip list
+```
+
+```
+#已经安装模块如下
+alembic                           0.9.9    
+argh                              0.26.2   
+backcall                          0.1.0    
+backports-abc                     0.5      
+beautifulsoup4                    4.6.0    
+bleach                            2.1.3    
+certifi                           2018.1.18
+cffi                              1.9.1    
+chardet                           3.0.4    
+CommonMark                        0.5.4    
+cryptography                      1.7.2    
+cycler                            0.10.0   
+decorator                         4.0.11   
+docutils                          0.14     
+entrypoints                       0.2.3    
+html5lib                          1.0.1    
+idna                              2.6      
+ipykernel                         4.8.2    
+ipython                           6.3.1    
+ipython-genutils                  0.1.0    
+ipywidgets                        7.2.1    
+jedi                              0.12.0   
+Jinja2                            2.10     
+jsonschema                        2.6.0    
+jupyter                           1.0.0    
+jupyter-client                    5.2.3    
+jupyter-console                   5.2.0    
+jupyter-contrib-core              0.3.3    
+jupyter-contrib-nbextensions      0.5.0    
+jupyter-core                      4.4.0    
+jupyter-highlight-selected-word   0.2.0    
+jupyter-latex-envs                1.4.4    
+jupyter-nbextensions-configurator 0.4.0    
+jupyterhub                        0.8.1    
+jupyterthemes                     0.19.1   
+kiwisolver                        1.0.1    
+lesscpy                           0.13.0   
+livereload                        2.5.1    
+lxml                              4.2.1    
+Mako                              1.0.7    
+Markdown                          2.6.11   
+MarkupSafe                        1.0      
+matplotlib                        2.2.2    
+metakernel                        0.20.14  
+mistune                           0.8.3    
+nbconvert                         5.3.1    
+nbformat                          4.4.0    
+notebook                          5.4.1    
+numpy                             1.9.3    
+pamela                            0.3.0    
+pandas                            0.19.2   
+pandas-datareader                 0.6.0    
+pandocfilters                     1.4.2    
+parso                             0.2.0    
+pathtools                         0.1.2    
+pexpect                           4.5.0    
+pickleshare                       0.7.4    
+pip                               10.0.0   
+ply                               3.9      
+port-for                          0.3.1    
+prompt-toolkit                    1.0.15   
+ptyprocess                        0.5.2    
+pyasn1                            0.1.9    
+pycparser                         2.14     
+Pygments                          2.2.0    
+pyparsing                         2.2.0    
+python-dateutil                   2.7.2    
+python-editor                     1.0.3    
+python-oauth2                     1.1.0    
+pytz                              2018.4   
+PyYAML                            3.12     
+pyzmq                             17.0.0   
+qtconsole                         4.3.1    
+recommonmark                      0.4.0    
+requests                          2.18.4   
+requests-file                     1.4.3    
+requests-ftp                      0.3.1    
+rise                              5.2.0    
+selenium                          3.11.0   
+Send2Trash                        1.5.0    
+setuptools                        19.2     
+simplegeneric                     0.8.1    
+six                               1.10.0   
+sphinx-autobuild                  0.7.1    
+SQLAlchemy                        1.2.6    
+sudospawner                       0.5.1    
+terminado                         0.8.1    
+testpath                          0.3.1    
+tornado                           5.0.2    
+traitlets                         4.3.2    
+typing                            3.6.4    
+urllib3                           1.22     
+watchdog                          0.8.3    
+wcwidth                           0.1.7    
+webencodings                      0.5.1    
+wheel                             0.31.0   
+widgetsnbextension                3.2.1    
+wrapt                             1.10.11  
+zmq                               0.0.0 
+```
+
+
+
+以前测试版本2.7.5,安装了以下模块
 
 ```
 appdirs (1.4.3)
@@ -168,3 +295,5 @@ yum-axelget (1.0.4)
 yum-langpacks (0.4.2)
 yum-metadata-parser (1.1.4)
 ```
+
+<!-- README.md ends here -->

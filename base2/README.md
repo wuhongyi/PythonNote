@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 6月  2 21:48:06 2017 (+0800)
-;; Last-Updated: 二 6月 20 22:34:40 2017 (+0800)
+;; Last-Updated: 五 4月 20 23:09:43 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 2
+;;     Update #: 3
 ;; URL: http://wuhongyi.cn -->
 
 # 基础
@@ -17,6 +17,7 @@
 本章节内容主要收集、摘录于以下网站：
 
 > http://www.cnblogs.com/Albert-Lee/p/6226699.html
-
+> http://www.runoob.com/python/python-tutorial.html
+> http://www.runoob.com/python3/python3-tutorial.html
 
 <!-- README.md ends here -->
