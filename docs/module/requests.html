@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>requests · GitBook</title>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.0">
         
         
         
@@ -513,38 +513,22 @@
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 1
 ;; URL: http://wuhongyi.cn -->
-<h1 id="requests">requests</h1>
-<p>&#x5BFC;&#x5165;requests&#x5E93;&#xFF1A;</p>
-<pre><code class="lang-python"><span class="hljs-keyword">import</span> requests <span class="hljs-comment">#&#x5BFC;&#x5165;requests&#x5E93;</span>
-</code></pre>
+
+
+<h1 id="requests">requests</h1><p>&#x5BFC;&#x5165;requests&#x5E93;&#xFF1A;</p><pre><code class="lang-python"><span class="hljs-keyword">import</span> requests <span class="hljs-comment">#&#x5BFC;&#x5165;requests&#x5E93;</span></code></pre>
 <pre><code class="lang-python">r = requests.get(<span class="hljs-string">&apos;https://unsplash.com&apos;</span>) <span class="hljs-comment">#&#x50CF;&#x76EE;&#x6807;url&#x5730;&#x5740;&#x53D1;&#x9001;get&#x8BF7;&#x6C42;&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;response&#x5BF9;&#x8C61;</span>
-print(r.text) <span class="hljs-comment">#r.text&#x662F;http response&#x7684;&#x7F51;&#x9875;HTML</span>
-</code></pre>
-<hr>
-<h2 id="get-&#x8BF7;&#x6C42;">get &#x8BF7;&#x6C42;</h2>
-<pre><code class="lang-python">r = requests.get(<span class="hljs-string">&quot;https://unsplash.com&quot;</span>)
-</code></pre>
-<p>&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5411;&#x7F51;&#x7AD9;&#x53D1;&#x9001;&#x4E86;&#x4E00;&#x4E2A;get&#x8BF7;&#x6C42;&#xFF0C;&#x7136;&#x540E;&#x7F51;&#x7AD9;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;response&#x3002;r &#x5C31;&#x662F;response&#x3002;&#x53EF;&#x4EE5;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x65F6;&#x5019;&#x67E5;&#x770B;r&#x7684;type&#x3002;</p>
-<pre><code class="lang-python">print(type(r))
-</code></pre>
-<p>get&#x8BF7;&#x6C42;&#x8FD8;&#x53EF;&#x4EE5;&#x4F20;&#x9012;&#x53C2;&#x6570;&#xFF1A;</p>
-<pre><code class="lang-python">payload = {<span class="hljs-string">&apos;key1&apos;</span>: <span class="hljs-string">&apos;value1&apos;</span>, <span class="hljs-string">&apos;key2&apos;</span>: <span class="hljs-string">&apos;value2&apos;</span>}
-r = requests.get(<span class="hljs-string">&quot;http://httpbin.org/get&quot;</span>, params=payload)
-</code></pre>
-<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x5411;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x7684;&#x8BF7;&#x6C42;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x4E24;&#x4E2A;&#x53C2;&#x6570;key1&#x548C;key2&#xFF0C;&#x4EE5;&#x53CA;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x503C;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#x5B83;&#x6784;&#x9020;&#x6210;&#x4E86;&#x5982;&#x4E0B;&#x7F51;&#x5740;&#xFF1A;</p>
-<pre><code class="lang-python">http://httpbin.org/get?key1=value1&amp;key2=value2
-</code></pre>
-<hr>
-<h2 id="post&#x8BF7;&#x6C42;">POST&#x8BF7;&#x6C42;</h2>
-<p>&#x65E0;&#x53C2;&#x6570;&#x7684;post&#x8BF7;&#x6C42;&#xFF1A;</p>
-<pre><code class="lang-python">r = requests.post(<span class="hljs-string">&quot;http://httpbin.org/post&quot;</span>)
-</code></pre>
-<p>&#x6709;&#x53C2;&#x6570;&#x7684;post&#x8BF7;&#x6C42;&#xFF1A;</p>
-<pre><code class="lang-python">payload = {<span class="hljs-string">&apos;key1&apos;</span>: <span class="hljs-string">&apos;value1&apos;</span>, <span class="hljs-string">&apos;key2&apos;</span>: <span class="hljs-string">&apos;value2&apos;</span>}
-r = requests.post(<span class="hljs-string">&quot;http://httpbin.org/post&quot;</span>, data=payload)
-</code></pre>
-<p>post&#x8BF7;&#x6C42;&#x591A;&#x7528;&#x6765;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x6570;&#x636E;&#xFF0C;&#x5373;&#x586B;&#x5199;&#x4E00;&#x5806;&#x8F93;&#x5165;&#x6846;&#xFF0C;&#x7136;&#x540E;&#x63D0;&#x4EA4;&#x3002;</p>
-<!-- requests.md ends here -->
+print(r.text) <span class="hljs-comment">#r.text&#x662F;http response&#x7684;&#x7F51;&#x9875;HTML</span></code></pre>
+<hr><h2 id="get-&#x8BF7;&#x6C42;">get &#x8BF7;&#x6C42;</h2><pre><code class="lang-python">r = requests.get(<span class="hljs-string">&quot;https://unsplash.com&quot;</span>)</code></pre>
+<p>&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5411;&#x7F51;&#x7AD9;&#x53D1;&#x9001;&#x4E86;&#x4E00;&#x4E2A;get&#x8BF7;&#x6C42;&#xFF0C;&#x7136;&#x540E;&#x7F51;&#x7AD9;&#x4F1A;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;response&#x3002;r &#x5C31;&#x662F;response&#x3002;&#x53EF;&#x4EE5;&#x5728;&#x8FD0;&#x884C;&#x7684;&#x65F6;&#x5019;&#x67E5;&#x770B;r&#x7684;type&#x3002;</p><pre><code class="lang-python">print(type(r))</code></pre>
+<p>get&#x8BF7;&#x6C42;&#x8FD8;&#x53EF;&#x4EE5;&#x4F20;&#x9012;&#x53C2;&#x6570;&#xFF1A;</p><pre><code class="lang-python">payload = {<span class="hljs-string">&apos;key1&apos;</span>: <span class="hljs-string">&apos;value1&apos;</span>, <span class="hljs-string">&apos;key2&apos;</span>: <span class="hljs-string">&apos;value2&apos;</span>}
+r = requests.get(<span class="hljs-string">&quot;http://httpbin.org/get&quot;</span>, params=payload)</code></pre>
+<p>&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#x5411;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x7684;&#x8BF7;&#x6C42;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x4E24;&#x4E2A;&#x53C2;&#x6570;key1&#x548C;key2&#xFF0C;&#x4EE5;&#x53CA;&#x4E24;&#x4E2A;&#x53C2;&#x6570;&#x7684;&#x503C;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#x5B83;&#x6784;&#x9020;&#x6210;&#x4E86;&#x5982;&#x4E0B;&#x7F51;&#x5740;&#xFF1A;</p><pre><code class="lang-python">http://httpbin.org/get?key1=value1&amp;key2=value2</code></pre>
+<hr><h2 id="post&#x8BF7;&#x6C42;">POST&#x8BF7;&#x6C42;</h2><p>&#x65E0;&#x53C2;&#x6570;&#x7684;post&#x8BF7;&#x6C42;&#xFF1A;</p><pre><code class="lang-python">r = requests.post(<span class="hljs-string">&quot;http://httpbin.org/post&quot;</span>)</code></pre>
+<p>&#x6709;&#x53C2;&#x6570;&#x7684;post&#x8BF7;&#x6C42;&#xFF1A;</p><pre><code class="lang-python">payload = {<span class="hljs-string">&apos;key1&apos;</span>: <span class="hljs-string">&apos;value1&apos;</span>, <span class="hljs-string">&apos;key2&apos;</span>: <span class="hljs-string">&apos;value2&apos;</span>}
+r = requests.post(<span class="hljs-string">&quot;http://httpbin.org/post&quot;</span>, data=payload)</code></pre>
+<p>post&#x8BF7;&#x6C42;&#x591A;&#x7528;&#x6765;&#x63D0;&#x4EA4;&#x8868;&#x5355;&#x6570;&#x636E;&#xFF0C;&#x5373;&#x586B;&#x5199;&#x4E00;&#x5806;&#x8F93;&#x5165;&#x6846;&#xFF0C;&#x7136;&#x540E;&#x63D0;&#x4EA4;&#x3002;</p><!-- requests.md ends here -->
+
+
 
                                 
                                 </section>
@@ -588,7 +572,7 @@ r = requests.post(<span class="hljs-string">&quot;http://httpbin.org/post&quot;<
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"requests","level":"1.5.6","depth":2,"next":{"title":"urllib","level":"1.5.7","depth":2,"path":"module/urllib.md","ref":"module/urllib.md","articles":[]},"previous":{"title":"pandas","level":"1.5.5","depth":2,"path":"module/pandas.md","ref":"module/pandas.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"module/requests.md","mtime":"2017-07-11T12:51:11.986Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-20T15:49:02.723Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"requests","level":"1.5.6","depth":2,"next":{"title":"urllib","level":"1.5.7","depth":2,"path":"module/urllib.md","ref":"module/urllib.md","articles":[]},"previous":{"title":"pandas","level":"1.5.5","depth":2,"path":"module/pandas.md","ref":"module/pandas.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"module/requests.md","mtime":"2018-05-14T09:12:43.513Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2018-08-23T04:10:17.274Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

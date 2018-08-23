@@ -2,12 +2,12 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <title>时间和日期 · GitBook</title>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.2">
+        <meta name="generator" content="GitBook 3.2.0">
         
         
         
@@ -513,18 +513,15 @@
 ;;           By: Hongyi Wu(吴鸿毅)
 ;;     Update #: 2
 ;; URL: http://wuhongyi.cn -->
-<h1 id="&#x65F6;&#x95F4;&#x548C;&#x65E5;&#x671F;">&#x65F6;&#x95F4;&#x548C;&#x65E5;&#x671F;</h1>
-<p>Python &#x7A0B;&#x5E8F;&#x80FD;&#x7528;&#x5F88;&#x591A;&#x65B9;&#x5F0F;&#x5904;&#x7406;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#xFF0C;&#x8F6C;&#x6362;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x662F;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x7684;&#x529F;&#x80FD;&#x3002;<br>Python &#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A; time &#x548C; calendar &#x6A21;&#x5757;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#x3002;<br>&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x662F;&#x4EE5;&#x79D2;&#x4E3A;&#x5355;&#x4F4D;&#x7684;&#x6D6E;&#x70B9;&#x5C0F;&#x6570;&#x3002;<br>&#x6BCF;&#x4E2A;&#x65F6;&#x95F4;&#x6233;&#x90FD;&#x4EE5;&#x81EA;&#x4ECE;1970&#x5E74;1&#x6708;1&#x65E5;&#x5348;&#x591C;&#xFF08;&#x5386;&#x5143;&#xFF09;&#x7ECF;&#x8FC7;&#x4E86;&#x591A;&#x957F;&#x65F6;&#x95F4;&#x6765;&#x8868;&#x793A;&#x3002;<br>Python &#x7684; time &#x6A21;&#x5757;&#x4E0B;&#x6709;&#x5F88;&#x591A;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x8F6C;&#x6362;&#x5E38;&#x89C1;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x3002;&#x5982;&#x51FD;&#x6570;time.time()&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6233;, &#x5982;&#x4E0B;&#x5B9E;&#x4F8B;:</p>
-<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+
+
+<h1 id="&#x65F6;&#x95F4;&#x548C;&#x65E5;&#x671F;">&#x65F6;&#x95F4;&#x548C;&#x65E5;&#x671F;</h1><p>Python &#x7A0B;&#x5E8F;&#x80FD;&#x7528;&#x5F88;&#x591A;&#x65B9;&#x5F0F;&#x5904;&#x7406;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#xFF0C;&#x8F6C;&#x6362;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x662F;&#x4E00;&#x4E2A;&#x5E38;&#x89C1;&#x7684;&#x529F;&#x80FD;&#x3002;</p><p>Python &#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A; time &#x548C; calendar &#x6A21;&#x5757;&#x53EF;&#x4EE5;&#x7528;&#x4E8E;&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#x3002;</p><p>&#x65F6;&#x95F4;&#x95F4;&#x9694;&#x662F;&#x4EE5;&#x79D2;&#x4E3A;&#x5355;&#x4F4D;&#x7684;&#x6D6E;&#x70B9;&#x5C0F;&#x6570;&#x3002;</p><p>&#x6BCF;&#x4E2A;&#x65F6;&#x95F4;&#x6233;&#x90FD;&#x4EE5;&#x81EA;&#x4ECE;1970&#x5E74;1&#x6708;1&#x65E5;&#x5348;&#x591C;&#xFF08;&#x5386;&#x5143;&#xFF09;&#x7ECF;&#x8FC7;&#x4E86;&#x591A;&#x957F;&#x65F6;&#x95F4;&#x6765;&#x8868;&#x793A;&#x3002;</p><p>Python &#x7684; time &#x6A21;&#x5757;&#x4E0B;&#x6709;&#x5F88;&#x591A;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x8F6C;&#x6362;&#x5E38;&#x89C1;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x3002;&#x5982;&#x51FD;&#x6570;time.time()&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6233;, &#x5982;&#x4E0B;&#x5B9E;&#x4F8B;:</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
 <span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
 
 <span class="hljs-keyword">import</span> time;  <span class="hljs-comment"># &#x5F15;&#x5165;time&#x6A21;&#x5757;</span>
 ticks = time.time()
-<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6233;&#x4E3A;:&quot;</span>, ticks
-</code></pre>
-<p>&#x65F6;&#x95F4;&#x6233;&#x5355;&#x4F4D;&#x6700;&#x9002;&#x4E8E;&#x505A;&#x65E5;&#x671F;&#x8FD0;&#x7B97;&#x3002;&#x4F46;&#x662F;1970&#x5E74;&#x4E4B;&#x524D;&#x7684;&#x65E5;&#x671F;&#x5C31;&#x65E0;&#x6CD5;&#x4EE5;&#x6B64;&#x8868;&#x793A;&#x4E86;&#x3002;&#x592A;&#x9065;&#x8FDC;&#x7684;&#x65E5;&#x671F;&#x4E5F;&#x4E0D;&#x884C;&#xFF0C;UNIX&#x548C;Windows&#x53EA;&#x652F;&#x6301;&#x5230;2038&#x5E74;&#x3002;</p>
-<p>&#x65F6;&#x95F4;&#x5143;&#x7EC4;: struct_time&#x5143;&#x7EC4;&#x3002;&#x8FD9;&#x79CD;&#x7ED3;&#x6784;&#x5177;&#x6709;&#x5982;&#x4E0B;&#x5C5E;&#x6027;&#xFF1A;</p>
-<pre><code>tm_year    4&#x4F4D;&#x6570;&#x5E74;
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6233;&#x4E3A;:&quot;</span>, ticks</code></pre>
+<p>&#x65F6;&#x95F4;&#x6233;&#x5355;&#x4F4D;&#x6700;&#x9002;&#x4E8E;&#x505A;&#x65E5;&#x671F;&#x8FD0;&#x7B97;&#x3002;&#x4F46;&#x662F;1970&#x5E74;&#x4E4B;&#x524D;&#x7684;&#x65E5;&#x671F;&#x5C31;&#x65E0;&#x6CD5;&#x4EE5;&#x6B64;&#x8868;&#x793A;&#x4E86;&#x3002;&#x592A;&#x9065;&#x8FDC;&#x7684;&#x65E5;&#x671F;&#x4E5F;&#x4E0D;&#x884C;&#xFF0C;UNIX&#x548C;Windows&#x53EA;&#x652F;&#x6301;&#x5230;2038&#x5E74;&#x3002;</p><p>&#x65F6;&#x95F4;&#x5143;&#x7EC4;: struct_time&#x5143;&#x7EC4;&#x3002;&#x8FD9;&#x79CD;&#x7ED3;&#x6784;&#x5177;&#x6709;&#x5982;&#x4E0B;&#x5C5E;&#x6027;&#xFF1A;</p><pre><code>tm_year    4&#x4F4D;&#x6570;&#x5E74;
 tm_mon    1 &#x5230; 12
 tm_mday    1 &#x5230; 31
 tm_hour    0 &#x5230; 23
@@ -532,28 +529,19 @@ tm_min    0 &#x5230; 59
 tm_sec    0 &#x5230; 61 (60&#x6216;61 &#x662F;&#x95F0;&#x79D2;)
 tm_wday    0&#x5230;6 (0&#x662F;&#x5468;&#x4E00;)
 tm_yday    1 &#x5230; 366(&#x5112;&#x7565;&#x5386;)
-tm_isdst    -1, 0, 1, -1&#x662F;&#x51B3;&#x5B9A;&#x662F;&#x5426;&#x4E3A;&#x590F;&#x4EE4;&#x65F6;&#x7684;&#x65D7;&#x5E1C;
-</code></pre><h2 id="&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;">&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;</h2>
-<p>&#x4ECE;&#x8FD4;&#x56DE;&#x6D6E;&#x70B9;&#x6570;&#x7684;&#x65F6;&#x95F4;&#x8F8D;&#x65B9;&#x5F0F;&#x5411;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x8F6C;&#x6362;&#xFF0C;&#x53EA;&#x8981;&#x5C06;&#x6D6E;&#x70B9;&#x6570;&#x4F20;&#x9012;&#x7ED9;&#x5982;localtime&#x4E4B;&#x7C7B;&#x7684;&#x51FD;&#x6570;
-&#x3002;</p>
-<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+tm_isdst    -1, 0, 1, -1&#x662F;&#x51B3;&#x5B9A;&#x662F;&#x5426;&#x4E3A;&#x590F;&#x4EE4;&#x65F6;&#x7684;&#x65D7;&#x5E1C;</code></pre>
+<h2 id="&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;">&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x65F6;&#x95F4;</h2><p>&#x4ECE;&#x8FD4;&#x56DE;&#x6D6E;&#x70B9;&#x6570;&#x7684;&#x65F6;&#x95F4;&#x8F8D;&#x65B9;&#x5F0F;&#x5411;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x8F6C;&#x6362;&#xFF0C;&#x53EA;&#x8981;&#x5C06;&#x6D6E;&#x70B9;&#x6570;&#x4F20;&#x9012;&#x7ED9;&#x5982;localtime&#x4E4B;&#x7C7B;&#x7684;&#x51FD;&#x6570;
+&#x3002;</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
 <span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
 <span class="hljs-keyword">import</span> time
 localtime = time.localtime(time.time())
-<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x672C;&#x5730;&#x65F6;&#x95F4;&#x4E3A; :&quot;</span>, localtime
-</code></pre>
-<h2 id="&#x83B7;&#x53D6;&#x683C;&#x5F0F;&#x5316;&#x7684;&#x65F6;&#x95F4;">&#x83B7;&#x53D6;&#x683C;&#x5F0F;&#x5316;&#x7684;&#x65F6;&#x95F4;</h2>
-<p>&#x4F60;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x9700;&#x6C42;&#x9009;&#x53D6;&#x5404;&#x79CD;&#x683C;&#x5F0F;&#xFF0C;&#x4F46;&#x662F;&#x6700;&#x7B80;&#x5355;&#x7684;&#x83B7;&#x53D6;&#x53EF;&#x8BFB;&#x7684;&#x65F6;&#x95F4;&#x6A21;&#x5F0F;&#x7684;&#x51FD;&#x6570;&#x662F;asctime():</p>
-<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x672C;&#x5730;&#x65F6;&#x95F4;&#x4E3A; :&quot;</span>, localtime</code></pre>
+<h2 id="&#x83B7;&#x53D6;&#x683C;&#x5F0F;&#x5316;&#x7684;&#x65F6;&#x95F4;">&#x83B7;&#x53D6;&#x683C;&#x5F0F;&#x5316;&#x7684;&#x65F6;&#x95F4;</h2><p>&#x4F60;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x9700;&#x6C42;&#x9009;&#x53D6;&#x5404;&#x79CD;&#x683C;&#x5F0F;&#xFF0C;&#x4F46;&#x662F;&#x6700;&#x7B80;&#x5355;&#x7684;&#x83B7;&#x53D6;&#x53EF;&#x8BFB;&#x7684;&#x65F6;&#x95F4;&#x6A21;&#x5F0F;&#x7684;&#x51FD;&#x6570;&#x662F;asctime():</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
 <span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
 <span class="hljs-keyword">import</span> time
 localtime = time.asctime( time.localtime(time.time()) )
-<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x672C;&#x5730;&#x65F6;&#x95F4;&#x4E3A; :&quot;</span>, localtime
-</code></pre>
-<h2 id="&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;">&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;</h2>
-<p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; time &#x6A21;&#x5757;&#x7684; strftime &#x65B9;&#x6CD5;&#x6765;&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;&#xFF0C;&#xFF1A;</p>
-<pre><code class="lang-python">time.strftime(format[, t])
-</code></pre>
+<span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x672C;&#x5730;&#x65F6;&#x95F4;&#x4E3A; :&quot;</span>, localtime</code></pre>
+<h2 id="&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;">&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;</h2><p>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; time &#x6A21;&#x5757;&#x7684; strftime &#x65B9;&#x6CD5;&#x6765;&#x683C;&#x5F0F;&#x5316;&#x65E5;&#x671F;&#xFF0C;&#xFF1A;</p><pre><code class="lang-python">time.strftime(format[, t])</code></pre>
 <pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
 <span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
 
@@ -564,10 +552,8 @@ localtime = time.asctime( time.localtime(time.time()) )
 <span class="hljs-keyword">print</span> time.strftime(<span class="hljs-string">&quot;%a %b %d %H:%M:%S %Y&quot;</span>, time.localtime()) 
 <span class="hljs-comment"># &#x5C06;&#x683C;&#x5F0F;&#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6362;&#x4E3A;&#x65F6;&#x95F4;&#x6233;</span>
 a = <span class="hljs-string">&quot;Sat Mar 28 22:24:24 2016&quot;</span>
-<span class="hljs-keyword">print</span> time.mktime(time.strptime(a,<span class="hljs-string">&quot;%a %b %d %H:%M:%S %Y&quot;</span>))
-</code></pre>
-<p>python&#x4E2D;&#x65F6;&#x95F4;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x5316;&#x7B26;&#x53F7;&#xFF1A;</p>
-<pre><code>%y &#x4E24;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;&#x8868;&#x793A;&#xFF08;00-99&#xFF09;
+<span class="hljs-keyword">print</span> time.mktime(time.strptime(a,<span class="hljs-string">&quot;%a %b %d %H:%M:%S %Y&quot;</span>))</code></pre>
+<p>python&#x4E2D;&#x65F6;&#x95F4;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x5316;&#x7B26;&#x53F7;&#xFF1A;</p><pre><code>%y &#x4E24;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;&#x8868;&#x793A;&#xFF08;00-99&#xFF09;
 %Y &#x56DB;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;&#x8868;&#x793A;&#xFF08;000-9999&#xFF09;
 %m &#x6708;&#x4EFD;&#xFF08;01-12&#xFF09;
 %d &#x6708;&#x5185;&#x4E2D;&#x7684;&#x4E00;&#x5929;&#xFF08;0-31&#xFF09;
@@ -588,69 +574,75 @@ a = <span class="hljs-string">&quot;Sat Mar 28 22:24:24 2016&quot;</span>
 %x &#x672C;&#x5730;&#x76F8;&#x5E94;&#x7684;&#x65E5;&#x671F;&#x8868;&#x793A;
 %X &#x672C;&#x5730;&#x76F8;&#x5E94;&#x7684;&#x65F6;&#x95F4;&#x8868;&#x793A;
 %Z &#x5F53;&#x524D;&#x65F6;&#x533A;&#x7684;&#x540D;&#x79F0;
-%% %&#x53F7;&#x672C;&#x8EAB;
-</code></pre><h2 id="&#x83B7;&#x53D6;&#x67D0;&#x6708;&#x65E5;&#x5386;">&#x83B7;&#x53D6;&#x67D0;&#x6708;&#x65E5;&#x5386;</h2>
-<p>Calendar&#x6A21;&#x5757;&#x6709;&#x5F88;&#x5E7F;&#x6CDB;&#x7684;&#x65B9;&#x6CD5;&#x7528;&#x6765;&#x5904;&#x7406;&#x5E74;&#x5386;&#x548C;&#x6708;&#x5386;&#xFF0C;&#x4F8B;&#x5982;&#x6253;&#x5370;&#x67D0;&#x6708;&#x7684;&#x6708;&#x5386;&#xFF1A;</p>
-<pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
+%% %&#x53F7;&#x672C;&#x8EAB;</code></pre>
+<h2 id="&#x83B7;&#x53D6;&#x67D0;&#x6708;&#x65E5;&#x5386;">&#x83B7;&#x53D6;&#x67D0;&#x6708;&#x65E5;&#x5386;</h2><p>Calendar&#x6A21;&#x5757;&#x6709;&#x5F88;&#x5E7F;&#x6CDB;&#x7684;&#x65B9;&#x6CD5;&#x7528;&#x6765;&#x5904;&#x7406;&#x5E74;&#x5386;&#x548C;&#x6708;&#x5386;&#xFF0C;&#x4F8B;&#x5982;&#x6253;&#x5370;&#x67D0;&#x6708;&#x7684;&#x6708;&#x5386;&#xFF1A;</p><pre><code class="lang-python"><span class="hljs-comment">#!/usr/bin/python</span>
 <span class="hljs-comment"># -*- coding: UTF-8 -*-</span>
 
 <span class="hljs-keyword">import</span> calendar
 cal = calendar.month(<span class="hljs-number">2016</span>, <span class="hljs-number">1</span>)
 <span class="hljs-keyword">print</span> <span class="hljs-string">&quot;&#x4EE5;&#x4E0B;&#x8F93;&#x51FA;2016&#x5E74;1&#x6708;&#x4EFD;&#x7684;&#x65E5;&#x5386;:&quot;</span>
-<span class="hljs-keyword">print</span> cal;
-</code></pre>
-<hr>
-<h2 id="time-&#x6A21;&#x5757;">Time &#x6A21;&#x5757;</h2>
-<p>Time &#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF0C;&#x65E2;&#x6709;&#x65F6;&#x95F4;&#x5904;&#x7406;&#x76F8;&#x7684;&#xFF0C;&#x4E5F;&#x6709;&#x8F6C;&#x6362;&#x65F6;&#x95F4;&#x683C;&#x5F0F;&#x7684;&#xFF1A;</p>
-<ul>
-<li>time.altzone   &#x8FD4;&#x56DE;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x897F;&#x90E8;&#x7684;&#x590F;&#x4EE4;&#x65F6;&#x5730;&#x533A;&#x7684;&#x504F;&#x79FB;&#x79D2;&#x6570;&#x3002;&#x5982;&#x679C;&#x8BE5;&#x5730;&#x533A;&#x5728;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x4E1C;&#x90E8;&#x4F1A;&#x8FD4;&#x56DE;&#x8D1F;&#x503C;&#xFF08;&#x5982;&#x897F;&#x6B27;&#xFF0C;&#x5305;&#x62EC;&#x82F1;&#x56FD;&#xFF09;&#x3002;&#x5BF9;&#x590F;&#x4EE4;&#x65F6;&#x542F;&#x7528;&#x5730;&#x533A;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x3002;</li>
-<li>time.asctime([tupletime])   &#x63A5;&#x53D7;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5E76;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x53EF;&#x8BFB;&#x7684;&#x5F62;&#x5F0F;&#x4E3A;&quot;Tue Dec 11 18:07:14 2008&quot;&#xFF08;2008&#x5E74;12&#x6708;11&#x65E5; &#x5468;&#x4E8C;18&#x65F6;07&#x5206;14&#x79D2;&#xFF09;&#x7684;24&#x4E2A;&#x5B57;&#x7B26;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;</li>
-<li>time.clock( )   &#x7528;&#x4EE5;&#x6D6E;&#x70B9;&#x6570;&#x8BA1;&#x7B97;&#x7684;&#x79D2;&#x6570;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x7684;CPU&#x65F6;&#x95F4;&#x3002;&#x7528;&#x6765;&#x8861;&#x91CF;&#x4E0D;&#x540C;&#x7A0B;&#x5E8F;&#x7684;&#x8017;&#x65F6;&#xFF0C;&#x6BD4;time.time()&#x66F4;&#x6709;&#x7528;&#x3002;</li>
-<li>time.ctime([secs])   &#x4F5C;&#x7528;&#x76F8;&#x5F53;&#x4E8E;asctime(localtime(secs))&#xFF0C;&#x672A;&#x7ED9;&#x53C2;&#x6570;&#x76F8;&#x5F53;&#x4E8E;asctime()</li>
-<li>time.gmtime([secs])   &#x63A5;&#x6536;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x5E76;&#x8FD4;&#x56DE;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x5929;&#x6587;&#x65F6;&#x95F4;&#x4E0B;&#x7684;&#x65F6;&#x95F4;&#x5143;&#x7EC4;t&#x3002;&#x6CE8;&#xFF1A;t.tm_isdst&#x59CB;&#x7EC8;&#x4E3A;0</li>
-<li>time.localtime([secs])   &#x63A5;&#x6536;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x5E76;&#x8FD4;&#x56DE;&#x5F53;&#x5730;&#x65F6;&#x95F4;&#x4E0B;&#x7684;&#x65F6;&#x95F4;&#x5143;&#x7EC4;t&#xFF08;t.tm_isdst&#x53EF;&#x53D6;0&#x6216;1&#xFF0C;&#x53D6;&#x51B3;&#x4E8E;&#x5F53;&#x5730;&#x5F53;&#x65F6;&#x662F;&#x4E0D;&#x662F;&#x590F;&#x4EE4;&#x65F6;&#xFF09;&#x3002;</li>
-<li>time.mktime(tupletime)   &#x63A5;&#x53D7;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5E76;&#x8FD4;&#x56DE;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;</li>
-<li>time.sleep(secs)   &#x63A8;&#x8FDF;&#x8C03;&#x7528;&#x7EBF;&#x7A0B;&#x7684;&#x8FD0;&#x884C;&#xFF0C;secs&#x6307;&#x79D2;&#x6570;&#x3002;</li>
-<li>time.strftime(fmt[,tupletime])   &#x63A5;&#x6536;&#x4EE5;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x4EE5;&#x53EF;&#x8BFB;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#x7684;&#x5F53;&#x5730;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x7531;fmt&#x51B3;&#x5B9A;&#x3002;</li>
-<li>time.strptime(str,fmt=&apos;%a %b %d %H:%M:%S %Y&apos;)   &#x6839;&#x636E;fmt&#x7684;&#x683C;&#x5F0F;&#x628A;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x5B57;&#x7B26;&#x4E32;&#x89E3;&#x6790;&#x4E3A;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x3002;</li>
-<li>time.time( )   &#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x7684;&#x65F6;&#x95F4;&#x6233;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;</li>
-<li>time.tzset()   &#x6839;&#x636E;&#x73AF;&#x5883;&#x53D8;&#x91CF;TZ&#x91CD;&#x65B0;&#x521D;&#x59CB;&#x5316;&#x65F6;&#x95F4;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#x3002;</li>
-</ul>
-<p>Time&#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;2&#x4E2A;&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x5C5E;&#x6027;&#xFF1A;</p>
-<ul>
-<li>time.timezone   &#x5C5E;&#x6027;time.timezone&#x662F;&#x5F53;&#x5730;&#x65F6;&#x533A;&#xFF08;&#x672A;&#x542F;&#x52A8;&#x590F;&#x4EE4;&#x65F6;&#xFF09;&#x8DDD;&#x79BB;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x7684;&#x504F;&#x79FB;&#x79D2;&#x6570;&#xFF08;&gt;0&#xFF0C;&#x7F8E;&#x6D32;;&lt;=0&#x5927;&#x90E8;&#x5206;&#x6B27;&#x6D32;&#xFF0C;&#x4E9A;&#x6D32;&#xFF0C;&#x975E;&#x6D32;&#xFF09;&#x3002;</li>
-<li>time.tzname   &#x5C5E;&#x6027;time.tzname&#x5305;&#x542B;&#x4E00;&#x5BF9;&#x6839;&#x636E;&#x60C5;&#x51B5;&#x7684;&#x4E0D;&#x540C;&#x800C;&#x4E0D;&#x540C;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5206;&#x522B;&#x662F;&#x5E26;&#x590F;&#x4EE4;&#x65F6;&#x7684;&#x672C;&#x5730;&#x65F6;&#x533A;&#x540D;&#x79F0;&#xFF0C;&#x548C;&#x4E0D;&#x5E26;&#x7684;&#x3002;</li>
-</ul>
-<hr>
-<h2 id="&#x65E5;&#x5386;&#xFF08;calendar&#xFF09;&#x6A21;&#x5757;">&#x65E5;&#x5386;&#xFF08;Calendar&#xFF09;&#x6A21;&#x5757;</h2>
-<p>&#x6B64;&#x6A21;&#x5757;&#x7684;&#x51FD;&#x6570;&#x90FD;&#x662F;&#x65E5;&#x5386;&#x76F8;&#x5173;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#x6253;&#x5370;&#x67D0;&#x6708;&#x7684;&#x5B57;&#x7B26;&#x6708;&#x5386;&#x3002;</p>
-<p>&#x661F;&#x671F;&#x4E00;&#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x6BCF;&#x5468;&#x7B2C;&#x4E00;&#x5929;&#xFF0C;&#x661F;&#x671F;&#x5929;&#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x6700;&#x540E;&#x4E00;&#x5929;&#x3002;&#x66F4;&#x6539;&#x8BBE;&#x7F6E;&#x9700;&#x8C03;&#x7528;calendar.setfirstweekday()&#x51FD;&#x6570;&#x3002;&#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF1A;</p>
-<ul>
-<li>calendar.calendar(year,w=2,l=1,c=6)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x591A;&#x884C;&#x5B57;&#x7B26;&#x4E32;&#x683C;&#x5F0F;&#x7684;year&#x5E74;&#x5E74;&#x5386;&#xFF0C;3&#x4E2A;&#x6708;&#x4E00;&#x884C;&#xFF0C;&#x95F4;&#x9694;&#x8DDD;&#x79BB;&#x4E3A;c&#x3002; &#x6BCF;&#x65E5;&#x5BBD;&#x5EA6;&#x95F4;&#x9694;&#x4E3A;w&#x5B57;&#x7B26;&#x3002;&#x6BCF;&#x884C;&#x957F;&#x5EA6;&#x4E3A;21<em> W+18+2</em> C&#x3002;l&#x662F;&#x6BCF;&#x661F;&#x671F;&#x884C;&#x6570;&#x3002;</li>
-<li>calendar.firstweekday( )   &#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x6BCF;&#x5468;&#x8D77;&#x59CB;&#x65E5;&#x671F;&#x7684;&#x8BBE;&#x7F6E;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x9996;&#x6B21;&#x8F7D;&#x5165;caendar&#x6A21;&#x5757;&#x65F6;&#x8FD4;&#x56DE;0&#xFF0C;&#x5373;&#x661F;&#x671F;&#x4E00;&#x3002;</li>
-<li>calendar.isleap(year)   &#x662F;&#x95F0;&#x5E74;&#x8FD4;&#x56DE;True&#xFF0C;&#x5426;&#x5219;&#x4E3A;false&#x3002;</li>
-<li>calendar.leapdays(y1,y2)   &#x8FD4;&#x56DE;&#x5728;Y1&#xFF0C;Y2&#x4E24;&#x5E74;&#x4E4B;&#x95F4;&#x7684;&#x95F0;&#x5E74;&#x603B;&#x6570;&#x3002;</li>
-<li>calendar.month(year,month,w=2,l=1)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x591A;&#x884C;&#x5B57;&#x7B26;&#x4E32;&#x683C;&#x5F0F;&#x7684;year&#x5E74;month&#x6708;&#x65E5;&#x5386;&#xFF0C;&#x4E24;&#x884C;&#x6807;&#x9898;&#xFF0C;&#x4E00;&#x5468;&#x4E00;&#x884C;&#x3002;&#x6BCF;&#x65E5;&#x5BBD;&#x5EA6;&#x95F4;&#x9694;&#x4E3A;w&#x5B57;&#x7B26;&#x3002;&#x6BCF;&#x884C;&#x7684;&#x957F;&#x5EA6;&#x4E3A;7* w+6&#x3002;l&#x662F;&#x6BCF;&#x661F;&#x671F;&#x7684;&#x884C;&#x6570;&#x3002;</li>
-<li>calendar.monthcalendar(year,month)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#x7684;&#x5355;&#x5C42;&#x5D4C;&#x5957;&#x5217;&#x8868;&#x3002;&#x6BCF;&#x4E2A;&#x5B50;&#x5217;&#x8868;&#x88C5;&#x8F7D;&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x661F;&#x671F;&#x7684;&#x6574;&#x6570;&#x3002;Year&#x5E74;month&#x6708;&#x5916;&#x7684;&#x65E5;&#x671F;&#x90FD;&#x8BBE;&#x4E3A;0;&#x8303;&#x56F4;&#x5185;&#x7684;&#x65E5;&#x5B50;&#x90FD;&#x7531;&#x8BE5;&#x6708;&#x7B2C;&#x51E0;&#x65E5;&#x8868;&#x793A;&#xFF0C;&#x4ECE;1&#x5F00;&#x59CB;&#x3002;</li>
-<li>calendar.monthrange(year,month)   &#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x6574;&#x6570;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x662F;&#x8BE5;&#x6708;&#x7684;&#x661F;&#x671F;&#x51E0;&#x7684;&#x65E5;&#x671F;&#x7801;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x8BE5;&#x6708;&#x7684;&#x65E5;&#x671F;&#x7801;&#x3002;&#x65E5;&#x4ECE;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;;&#x6708;&#x4ECE;1&#x5230;12&#x3002;</li>
-<li>calendar.prcal(year,w=2,l=1,c=6)   &#x76F8;&#x5F53;&#x4E8E; print calendar.calendar(year,w,l,c).</li>
-<li>calendar.prmonth(year,month,w=2,l=1)   &#x76F8;&#x5F53;&#x4E8E; print calendar.calendar&#xFF08;year&#xFF0C;w&#xFF0C;l&#xFF0C;c&#xFF09;&#x3002;</li>
-<li>calendar.setfirstweekday(weekday)   &#x8BBE;&#x7F6E;&#x6BCF;&#x5468;&#x7684;&#x8D77;&#x59CB;&#x65E5;&#x671F;&#x7801;&#x3002;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;&#x3002;</li>
-<li>calendar.timegm(tupletime)   &#x548C;time.gmtime&#x76F8;&#x53CD;&#xFF1A;&#x63A5;&#x53D7;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5F62;&#x5F0F;&#xFF0C;&#x8FD4;&#x56DE;&#x8BE5;&#x65F6;&#x523B;&#x7684;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;</li>
-<li>calendar.weekday(year,month,day)   &#x8FD4;&#x56DE;&#x7ED9;&#x5B9A;&#x65E5;&#x671F;&#x7684;&#x65E5;&#x671F;&#x7801;&#x3002;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;&#x3002;&#x6708;&#x4EFD;&#x4E3A; 1&#xFF08;&#x4E00;&#x6708;&#xFF09; &#x5230; 12&#xFF08;12&#x6708;&#xFF09;&#x3002;</li>
-</ul>
-<hr>
-<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x5176;&#x4ED6;&#x5904;&#x7406;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#x7684;&#x6A21;&#x5757;&#x8FD8;&#x6709;&#xFF1A;</p>
-<ul>
-<li>datetime&#x6A21;&#x5757;</li>
-<li>pytz&#x6A21;&#x5757;</li>
-<li>dateutil&#x6A21;&#x5757;</li>
-</ul>
-<hr>
-<blockquote>
-<p><a href="http://www.runoob.com/python/python-date-time.html" target="_blank">http://www.runoob.com/python/python-date-time.html</a></p>
-</blockquote>
-<!-- Time.md ends here -->
+<span class="hljs-keyword">print</span> cal;</code></pre>
+<hr><h2 id="time-&#x6A21;&#x5757;">Time &#x6A21;&#x5757;</h2><p>Time &#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF0C;&#x65E2;&#x6709;&#x65F6;&#x95F4;&#x5904;&#x7406;&#x76F8;&#x7684;&#xFF0C;&#x4E5F;&#x6709;&#x8F6C;&#x6362;&#x65F6;&#x95F4;&#x683C;&#x5F0F;&#x7684;&#xFF1A;</p><ul><li>time.altzone   &#x8FD4;&#x56DE;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x897F;&#x90E8;&#x7684;&#x590F;&#x4EE4;&#x65F6;&#x5730;&#x533A;&#x7684;&#x504F;&#x79FB;&#x79D2;&#x6570;&#x3002;&#x5982;&#x679C;&#x8BE5;&#x5730;&#x533A;&#x5728;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x4E1C;&#x90E8;&#x4F1A;&#x8FD4;&#x56DE;&#x8D1F;&#x503C;&#xFF08;&#x5982;&#x897F;&#x6B27;&#xFF0C;&#x5305;&#x62EC;&#x82F1;&#x56FD;&#xFF09;&#x3002;&#x5BF9;&#x590F;&#x4EE4;&#x65F6;&#x542F;&#x7528;&#x5730;&#x533A;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x3002;
+</li>
+<li>time.asctime([tupletime])   &#x63A5;&#x53D7;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5E76;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x53EF;&#x8BFB;&#x7684;&#x5F62;&#x5F0F;&#x4E3A;&quot;Tue Dec 11 18:07:14 2008&quot;&#xFF08;2008&#x5E74;12&#x6708;11&#x65E5; &#x5468;&#x4E8C;18&#x65F6;07&#x5206;14&#x79D2;&#xFF09;&#x7684;24&#x4E2A;&#x5B57;&#x7B26;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;
+</li>
+<li>time.clock( )   &#x7528;&#x4EE5;&#x6D6E;&#x70B9;&#x6570;&#x8BA1;&#x7B97;&#x7684;&#x79D2;&#x6570;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x7684;CPU&#x65F6;&#x95F4;&#x3002;&#x7528;&#x6765;&#x8861;&#x91CF;&#x4E0D;&#x540C;&#x7A0B;&#x5E8F;&#x7684;&#x8017;&#x65F6;&#xFF0C;&#x6BD4;time.time()&#x66F4;&#x6709;&#x7528;&#x3002;
+</li>
+<li>time.ctime([secs])   &#x4F5C;&#x7528;&#x76F8;&#x5F53;&#x4E8E;asctime(localtime(secs))&#xFF0C;&#x672A;&#x7ED9;&#x53C2;&#x6570;&#x76F8;&#x5F53;&#x4E8E;asctime()
+</li>
+<li>time.gmtime([secs])   &#x63A5;&#x6536;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x5E76;&#x8FD4;&#x56DE;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x5929;&#x6587;&#x65F6;&#x95F4;&#x4E0B;&#x7684;&#x65F6;&#x95F4;&#x5143;&#x7EC4;t&#x3002;&#x6CE8;&#xFF1A;t.tm_isdst&#x59CB;&#x7EC8;&#x4E3A;0
+</li>
+<li>time.localtime([secs])   &#x63A5;&#x6536;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x5E76;&#x8FD4;&#x56DE;&#x5F53;&#x5730;&#x65F6;&#x95F4;&#x4E0B;&#x7684;&#x65F6;&#x95F4;&#x5143;&#x7EC4;t&#xFF08;t.tm_isdst&#x53EF;&#x53D6;0&#x6216;1&#xFF0C;&#x53D6;&#x51B3;&#x4E8E;&#x5F53;&#x5730;&#x5F53;&#x65F6;&#x662F;&#x4E0D;&#x662F;&#x590F;&#x4EE4;&#x65F6;&#xFF09;&#x3002;
+</li>
+<li>time.mktime(tupletime)   &#x63A5;&#x53D7;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5E76;&#x8FD4;&#x56DE;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;
+</li>
+<li>time.sleep(secs)   &#x63A8;&#x8FDF;&#x8C03;&#x7528;&#x7EBF;&#x7A0B;&#x7684;&#x8FD0;&#x884C;&#xFF0C;secs&#x6307;&#x79D2;&#x6570;&#x3002;
+</li>
+<li>time.strftime(fmt[,tupletime])   &#x63A5;&#x6536;&#x4EE5;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x4EE5;&#x53EF;&#x8BFB;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#x7684;&#x5F53;&#x5730;&#x65F6;&#x95F4;&#xFF0C;&#x683C;&#x5F0F;&#x7531;fmt&#x51B3;&#x5B9A;&#x3002;
+</li>
+<li>time.strptime(str,fmt=&apos;%a %b %d %H:%M:%S %Y&apos;)   &#x6839;&#x636E;fmt&#x7684;&#x683C;&#x5F0F;&#x628A;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x5B57;&#x7B26;&#x4E32;&#x89E3;&#x6790;&#x4E3A;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x3002;
+</li>
+<li>time.time( )   &#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x7684;&#x65F6;&#x95F4;&#x6233;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;
+</li>
+<li>time.tzset()   &#x6839;&#x636E;&#x73AF;&#x5883;&#x53D8;&#x91CF;TZ&#x91CD;&#x65B0;&#x521D;&#x59CB;&#x5316;&#x65F6;&#x95F4;&#x76F8;&#x5173;&#x8BBE;&#x7F6E;&#x3002;
+</li></ul>
+<p>Time&#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;2&#x4E2A;&#x975E;&#x5E38;&#x91CD;&#x8981;&#x7684;&#x5C5E;&#x6027;&#xFF1A;</p><ul><li>time.timezone   &#x5C5E;&#x6027;time.timezone&#x662F;&#x5F53;&#x5730;&#x65F6;&#x533A;&#xFF08;&#x672A;&#x542F;&#x52A8;&#x590F;&#x4EE4;&#x65F6;&#xFF09;&#x8DDD;&#x79BB;&#x683C;&#x6797;&#x5A01;&#x6CBB;&#x7684;&#x504F;&#x79FB;&#x79D2;&#x6570;&#xFF08;&gt;0&#xFF0C;&#x7F8E;&#x6D32;;&lt;=0&#x5927;&#x90E8;&#x5206;&#x6B27;&#x6D32;&#xFF0C;&#x4E9A;&#x6D32;&#xFF0C;&#x975E;&#x6D32;&#xFF09;&#x3002;
+</li>
+<li>time.tzname   &#x5C5E;&#x6027;time.tzname&#x5305;&#x542B;&#x4E00;&#x5BF9;&#x6839;&#x636E;&#x60C5;&#x51B5;&#x7684;&#x4E0D;&#x540C;&#x800C;&#x4E0D;&#x540C;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x5206;&#x522B;&#x662F;&#x5E26;&#x590F;&#x4EE4;&#x65F6;&#x7684;&#x672C;&#x5730;&#x65F6;&#x533A;&#x540D;&#x79F0;&#xFF0C;&#x548C;&#x4E0D;&#x5E26;&#x7684;&#x3002;
+</li></ul>
+<hr><h2 id="&#x65E5;&#x5386;&#xFF08;calendar&#xFF09;&#x6A21;&#x5757;">&#x65E5;&#x5386;&#xFF08;Calendar&#xFF09;&#x6A21;&#x5757;</h2><p>&#x6B64;&#x6A21;&#x5757;&#x7684;&#x51FD;&#x6570;&#x90FD;&#x662F;&#x65E5;&#x5386;&#x76F8;&#x5173;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#x6253;&#x5370;&#x67D0;&#x6708;&#x7684;&#x5B57;&#x7B26;&#x6708;&#x5386;&#x3002;</p><p>&#x661F;&#x671F;&#x4E00;&#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x6BCF;&#x5468;&#x7B2C;&#x4E00;&#x5929;&#xFF0C;&#x661F;&#x671F;&#x5929;&#x662F;&#x9ED8;&#x8BA4;&#x7684;&#x6700;&#x540E;&#x4E00;&#x5929;&#x3002;&#x66F4;&#x6539;&#x8BBE;&#x7F6E;&#x9700;&#x8C03;&#x7528;calendar.setfirstweekday()&#x51FD;&#x6570;&#x3002;&#x6A21;&#x5757;&#x5305;&#x542B;&#x4E86;&#x4EE5;&#x4E0B;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF1A;</p><ul><li>calendar.calendar(year,w=2,l=1,c=6)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x591A;&#x884C;&#x5B57;&#x7B26;&#x4E32;&#x683C;&#x5F0F;&#x7684;year&#x5E74;&#x5E74;&#x5386;&#xFF0C;3&#x4E2A;&#x6708;&#x4E00;&#x884C;&#xFF0C;&#x95F4;&#x9694;&#x8DDD;&#x79BB;&#x4E3A;c&#x3002; &#x6BCF;&#x65E5;&#x5BBD;&#x5EA6;&#x95F4;&#x9694;&#x4E3A;w&#x5B57;&#x7B26;&#x3002;&#x6BCF;&#x884C;&#x957F;&#x5EA6;&#x4E3A;21<em> W+18+2</em> C&#x3002;l&#x662F;&#x6BCF;&#x661F;&#x671F;&#x884C;&#x6570;&#x3002;
+</li>
+<li>calendar.firstweekday( )   &#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x6BCF;&#x5468;&#x8D77;&#x59CB;&#x65E5;&#x671F;&#x7684;&#x8BBE;&#x7F6E;&#x3002;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x9996;&#x6B21;&#x8F7D;&#x5165;caendar&#x6A21;&#x5757;&#x65F6;&#x8FD4;&#x56DE;0&#xFF0C;&#x5373;&#x661F;&#x671F;&#x4E00;&#x3002;
+</li>
+<li>calendar.isleap(year)   &#x662F;&#x95F0;&#x5E74;&#x8FD4;&#x56DE;True&#xFF0C;&#x5426;&#x5219;&#x4E3A;false&#x3002;
+</li>
+<li>calendar.leapdays(y1,y2)   &#x8FD4;&#x56DE;&#x5728;Y1&#xFF0C;Y2&#x4E24;&#x5E74;&#x4E4B;&#x95F4;&#x7684;&#x95F0;&#x5E74;&#x603B;&#x6570;&#x3002;
+</li>
+<li>calendar.month(year,month,w=2,l=1)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x591A;&#x884C;&#x5B57;&#x7B26;&#x4E32;&#x683C;&#x5F0F;&#x7684;year&#x5E74;month&#x6708;&#x65E5;&#x5386;&#xFF0C;&#x4E24;&#x884C;&#x6807;&#x9898;&#xFF0C;&#x4E00;&#x5468;&#x4E00;&#x884C;&#x3002;&#x6BCF;&#x65E5;&#x5BBD;&#x5EA6;&#x95F4;&#x9694;&#x4E3A;w&#x5B57;&#x7B26;&#x3002;&#x6BCF;&#x884C;&#x7684;&#x957F;&#x5EA6;&#x4E3A;7* w+6&#x3002;l&#x662F;&#x6BCF;&#x661F;&#x671F;&#x7684;&#x884C;&#x6570;&#x3002;
+</li>
+<li>calendar.monthcalendar(year,month)   &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x6574;&#x6570;&#x7684;&#x5355;&#x5C42;&#x5D4C;&#x5957;&#x5217;&#x8868;&#x3002;&#x6BCF;&#x4E2A;&#x5B50;&#x5217;&#x8868;&#x88C5;&#x8F7D;&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x661F;&#x671F;&#x7684;&#x6574;&#x6570;&#x3002;Year&#x5E74;month&#x6708;&#x5916;&#x7684;&#x65E5;&#x671F;&#x90FD;&#x8BBE;&#x4E3A;0;&#x8303;&#x56F4;&#x5185;&#x7684;&#x65E5;&#x5B50;&#x90FD;&#x7531;&#x8BE5;&#x6708;&#x7B2C;&#x51E0;&#x65E5;&#x8868;&#x793A;&#xFF0C;&#x4ECE;1&#x5F00;&#x59CB;&#x3002;
+</li>
+<li>calendar.monthrange(year,month)   &#x8FD4;&#x56DE;&#x4E24;&#x4E2A;&#x6574;&#x6570;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x662F;&#x8BE5;&#x6708;&#x7684;&#x661F;&#x671F;&#x51E0;&#x7684;&#x65E5;&#x671F;&#x7801;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x8BE5;&#x6708;&#x7684;&#x65E5;&#x671F;&#x7801;&#x3002;&#x65E5;&#x4ECE;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;;&#x6708;&#x4ECE;1&#x5230;12&#x3002;
+</li>
+<li>calendar.prcal(year,w=2,l=1,c=6)   &#x76F8;&#x5F53;&#x4E8E; print calendar.calendar(year,w,l,c).
+</li>
+<li>calendar.prmonth(year,month,w=2,l=1)   &#x76F8;&#x5F53;&#x4E8E; print calendar.calendar&#xFF08;year&#xFF0C;w&#xFF0C;l&#xFF0C;c&#xFF09;&#x3002;
+</li>
+<li>calendar.setfirstweekday(weekday)   &#x8BBE;&#x7F6E;&#x6BCF;&#x5468;&#x7684;&#x8D77;&#x59CB;&#x65E5;&#x671F;&#x7801;&#x3002;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;&#x3002;
+</li>
+<li>calendar.timegm(tupletime)   &#x548C;time.gmtime&#x76F8;&#x53CD;&#xFF1A;&#x63A5;&#x53D7;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x5143;&#x7EC4;&#x5F62;&#x5F0F;&#xFF0C;&#x8FD4;&#x56DE;&#x8BE5;&#x65F6;&#x523B;&#x7684;&#x65F6;&#x95F4;&#x8F8D;&#xFF08;1970&#x7EAA;&#x5143;&#x540E;&#x7ECF;&#x8FC7;&#x7684;&#x6D6E;&#x70B9;&#x79D2;&#x6570;&#xFF09;&#x3002;
+</li>
+<li>calendar.weekday(year,month,day)   &#x8FD4;&#x56DE;&#x7ED9;&#x5B9A;&#x65E5;&#x671F;&#x7684;&#x65E5;&#x671F;&#x7801;&#x3002;0&#xFF08;&#x661F;&#x671F;&#x4E00;&#xFF09;&#x5230;6&#xFF08;&#x661F;&#x671F;&#x65E5;&#xFF09;&#x3002;&#x6708;&#x4EFD;&#x4E3A; 1&#xFF08;&#x4E00;&#x6708;&#xFF09; &#x5230; 12&#xFF08;12&#x6708;&#xFF09;&#x3002;
+</li></ul>
+<hr><p>&#x5728;Python&#x4E2D;&#xFF0C;&#x5176;&#x4ED6;&#x5904;&#x7406;&#x65E5;&#x671F;&#x548C;&#x65F6;&#x95F4;&#x7684;&#x6A21;&#x5757;&#x8FD8;&#x6709;&#xFF1A;</p><ul><li>datetime&#x6A21;&#x5757;
+</li>
+<li>pytz&#x6A21;&#x5757;
+</li>
+<li>dateutil&#x6A21;&#x5757;
+</li></ul>
+<hr><blockquote><p><a href="http://www.runoob.com/python/python-date-time.html" target="_blank">http://www.runoob.com/python/python-date-time.html</a></p></blockquote><!-- Time.md ends here -->
+
+
 
                                 
                                 </section>
@@ -694,7 +686,7 @@ cal = calendar.month(<span class="hljs-number">2016</span>, <span class="hljs-nu
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"时间和日期","level":"1.4.11","depth":2,"next":{"title":"模块+","level":"1.4.12","depth":2,"path":"base2/Module.md","ref":"base2/Module.md","articles":[]},"previous":{"title":"运算符+","level":"1.4.10","depth":2,"path":"base2/Operators.md","ref":"base2/Operators.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base2/Time.md","mtime":"2017-07-11T12:51:12.128Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-20T15:49:02.723Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"时间和日期","level":"1.4.11","depth":2,"next":{"title":"模块+","level":"1.4.12","depth":2,"path":"base2/Module.md","ref":"base2/Module.md","articles":[]},"previous":{"title":"运算符+","level":"1.4.10","depth":2,"path":"base2/Operators.md","ref":"base2/Operators.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"base2/Time.md","mtime":"2018-05-14T09:12:43.795Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2018-08-23T04:10:17.274Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
