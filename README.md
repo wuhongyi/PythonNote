@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 五 4月 20 22:48:26 2018 (+0800)
-;; Last-Updated: 五 4月 20 23:06:24 2018 (+0800)
+;; Last-Updated: 一 8月 27 11:49:31 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 2
+;;     Update #: 4
 ;; URL: http://wuhongyi.cn -->
 
 # 简介
@@ -23,6 +23,8 @@ http://wuhongyi.cn/PythonNote/
 
 
 > https://www.python.org/
+> https://morvanzhou.github.io/   好博客
+
 
 
 本文主要面向python3(毕竟2.7会慢慢退出历史舞台)
